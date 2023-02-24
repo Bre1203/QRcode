@@ -6,7 +6,7 @@ qr = qrcode.QRCode(version=1,
                    box_size=20,
                    border=2)
 
-qr.add_data("https://github.com/Bre1203")
+qr.add_data("https://www.mtsu.edu/")
 qr.make(fit=True)
 
 img = qr.make_image(fill_color="black",back_color="white")
